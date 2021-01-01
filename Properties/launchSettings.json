@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FolderPreservationCut": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:/test\" \"C:/test2\""
+    }
+  }
+}

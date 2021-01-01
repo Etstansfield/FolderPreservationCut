@@ -1,0 +1,13 @@
+C:\Users\Edward\source\repos\FolderPreservationCopy\bin\Debug\netcoreapp3.1\FolderPreservationCopy.exe
+C:\Users\Edward\source\repos\FolderPreservationCopy\bin\Debug\netcoreapp3.1\FolderPreservationCopy.deps.json
+C:\Users\Edward\source\repos\FolderPreservationCopy\bin\Debug\netcoreapp3.1\FolderPreservationCopy.runtimeconfig.json
+C:\Users\Edward\source\repos\FolderPreservationCopy\bin\Debug\netcoreapp3.1\FolderPreservationCopy.runtimeconfig.dev.json
+C:\Users\Edward\source\repos\FolderPreservationCopy\bin\Debug\netcoreapp3.1\FolderPreservationCopy.dll
+C:\Users\Edward\source\repos\FolderPreservationCopy\bin\Debug\netcoreapp3.1\FolderPreservationCopy.pdb
+C:\Users\Edward\source\repos\FolderPreservationCopy\obj\Debug\netcoreapp3.1\FolderPreservationCopy.csprojAssemblyReference.cache
+C:\Users\Edward\source\repos\FolderPreservationCopy\obj\Debug\netcoreapp3.1\FolderPreservationCopy.AssemblyInfoInputs.cache
+C:\Users\Edward\source\repos\FolderPreservationCopy\obj\Debug\netcoreapp3.1\FolderPreservationCopy.AssemblyInfo.cs
+C:\Users\Edward\source\repos\FolderPreservationCopy\obj\Debug\netcoreapp3.1\FolderPreservationCopy.csproj.CoreCompileInputs.cache
+C:\Users\Edward\source\repos\FolderPreservationCopy\obj\Debug\netcoreapp3.1\FolderPreservationCopy.dll
+C:\Users\Edward\source\repos\FolderPreservationCopy\obj\Debug\netcoreapp3.1\FolderPreservationCopy.pdb
+C:\Users\Edward\source\repos\FolderPreservationCopy\obj\Debug\netcoreapp3.1\FolderPreservationCopy.genruntimeconfig.cache
