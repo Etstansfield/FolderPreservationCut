@@ -19,7 +19,7 @@ namespace FolderPreservationCut.Classes
         [Description("Finds All Folders in the given location")]
         public List<string> FindAllFolders(string path)
         {
-            IEnumerable<string> rawFolders = Directory.EnumerateDirectories(path);
+            IEnumerable<string> rawFolders = Directory.EnumerateDirectories(path,"*", SearchOption.AllDirectories);
             List<string> parsedFolders = new List<string>();
             foreach (var rawFolder in rawFolders)
             {
@@ -62,7 +62,7 @@ namespace FolderPreservationCut.Classes
         [Description("Find all files in a given directory listing")]
         public List<string> FindAllFiles(string path)
         {
-            IEnumerable<string> rawFiles = Directory.EnumerateFiles(path);// Possibly change this to get inner folders - maybe on a mark II version
+            IEnumerable<string> rawFiles = Directory.EnumerateFiles(path, "*", SearchOption.AllDirectories);// Possibly change this to get inner folders - maybe on a mark II version
             List<string> parsedFiles = new List<string>();
             foreach (var rawFolder in rawFiles)
             {

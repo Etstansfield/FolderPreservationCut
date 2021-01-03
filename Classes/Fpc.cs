@@ -69,6 +69,8 @@ namespace FolderPreservationCut
                 // now create the missing folders
                 _fp.CreateFolders(missingFolders, endLocation);
             }
+
+            
             
             // now we need to go through all folders and find the files in each and copy them over - then delete the original file
             // TODO: - Add a argument wether we want to override existing files
@@ -82,7 +84,7 @@ namespace FolderPreservationCut
                 totalFiles += missingFiles.Count();
                 foreach (string file in missingFiles)
                 {
-                    // Console.WriteLine(s);
+                    Console.WriteLine(file);
                     // now copy the missing files over
                     int result = _fp.CopyFile(startLocation + folder + file, endLocation + folder + file);
                     copiedFiles += result;
@@ -93,7 +95,7 @@ namespace FolderPreservationCut
 
                 foreach (string file in files)
                 {
-                    _fp.DeleteFile(startLocation + folder + file);
+                     _fp.DeleteFile(startLocation + folder + file);
                 }
             }
             
