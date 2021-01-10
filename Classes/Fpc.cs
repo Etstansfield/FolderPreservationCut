@@ -82,12 +82,14 @@ namespace FolderPreservationCut
                 IEnumerable<string> missingFiles = files.Except(endFiles);
                 // list all the files - just for debugging
                 totalFiles += missingFiles.Count();
+
                 foreach (string file in missingFiles)
                 {
-                    Console.WriteLine(file);
+                    PrintCurrentCopyingFile(file);
                     // now copy the missing files over
                     int result = _fp.CopyFile(startLocation + folder + file, endLocation + folder + file);
                     copiedFiles += result;
+
                 }
                 
                 // now delete the original files - regardless of if they were missing or not
@@ -98,9 +100,15 @@ namespace FolderPreservationCut
                      _fp.DeleteFile(startLocation + folder + file);
                 }
             }
-            
+            Console.Write('\r');
             Console.WriteLine($"+++ {copiedFiles}/{totalFiles} Files Moved Successfully +++");
             return 1;
+        }
+
+        private void PrintCurrentCopyingFile(string filename)
+        {
+            Console.Write('\r');
+            Console.Write($"+++ Cutting: {filename} +++");
         }
 
         
